@@ -26,7 +26,7 @@ function Carousel() {
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       autoplay={{ delay: 2000 }}
-      effect="fade"
+      // effect="fade"
     >
       {carouselApiResponse.map((imageSrc, index) => (
         <SwiperSlide key={index}>
